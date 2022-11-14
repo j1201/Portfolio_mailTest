@@ -1,0 +1,34 @@
+.works {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    @include desktop {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+}
+
+.work-type {
+    line-height: 1.5em;
+    margin-bottom: 2em;
+
+    @include tablet {
+        width: 30%;
+    }
+
+    @include desktop {
+        width: 25%;
+    }
+
+    li {
+        display: inline-block;
+        list-style: none;
+
+        &:after {
+            content: " / ";
+            padding: 2px;
+        }
+    }
+
+}

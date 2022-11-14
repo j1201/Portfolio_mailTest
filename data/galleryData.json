@@ -1,0 +1,32 @@
+{
+    "project1": {
+        "name":"Project 1",
+        "type":"Logo & Lebel Design · 3D Modelling · Motion Design · Web Design · Web Development",
+        "pic":"test.jpg"
+    },
+    "project2": {
+        "name":"Project 2",
+        "type":"Logo & Lebel Design · 3D Modelling · Motion Design · Web Design · Web Development",
+        "pic":"test.jpg"
+    },
+    "project3": {
+        "name":"Project 3",
+        "type":"Logo & Lebel Design · 3D Modelling · Motion Design · Web Design · Web Development",
+        "pic":"test.jpg"
+    },
+    "project4": {
+        "name":"Project 4",
+        "type":"Logo & Lebel Design · 3D Modelling · Motion Design · Web Design · Web Development",
+        "pic":"test.jpg"
+    },
+    "project5": {
+        "name":"Project 5",
+        "type":"Logo & Lebel Design · 3D Modelling · Motion Design · Web Design · Web Development",
+        "pic":"test.jpg"
+    },
+    "project6": {
+        "name":"Project 6",
+        "type":"Logo & Lebel Design · 3D Modelling · Motion Design · Web Design · Web Development",
+        "pic":"test.jpg"
+    }
+  }

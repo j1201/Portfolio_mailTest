@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/07199f6f37.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <section class="header">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo_blk.png" alt="JC's logo"></a>
+            </div>
+            <div class="header-nav">
+                <ul>
+                    <a href=""><li>Works</li></a>
+                    <a href=""><li>About</li></a>
+                    <a href="contact.html"><li>Contact</li></a>
+                </ul>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="home-about-container">
+            <div class="home-about">
+                <h2>Hi, I’m Joanna Chow, a multidisciplinary designer with a focused on UI/UX design.</h2>
+                <p>Currently in my final year of studying at <a class="underline" href="https://www.fanshawec.ca/programs/idp3-interactive-media-design/next#group_overview" target="_blank" rel="noopener noreferrer">Fanshawe College</a> and designing at <a class="underline" href="https://www.energysafetycanada.com/" target="_blank" rel="noopener noreferrer">Energy Safety Canada</a>. <br><br>Previously I worked at <a class="underline" href="https://hk.art.museum/en_US/web/ma/home.html" target="_blank" rel="noopener noreferrer">Hong Kong Museum of Art</a>, <a class="underline" href="https://www.jccac.org.hk/?lang=en" target="_blank" rel="noopener noreferrer">Jockey Club Creative Arts Centre</a>, and more, to develop art and community programmes.</p>
+            </div>
+            <div class="home-contact">
+                <div><p><span>Connect</span><br>Linkedin</p></div>
+                <div><p><span>Contact</span><br>hello@joanna-chow.com</p></div>
+            </div>
+        </section>
+        <section class="works">
+            <div class="work-type">
+                <ul>
+                    <li>All</li>
+                    <li>Web Development</li>
+                    <li>UI/UX Design</li>
+                    <li>Branding</li>
+                    <li>Motion Design</li>
+                    <li>Graphic Design</li>
+                </ul>
+            </div>
+            <div class="gallery-section">
+                <!-- dynamic content gets injected here-->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <p>Designed & developed by Joanna Chow.</p>
+        </div>
+        <div class="footer-nav">
+            <ul>
+                <a href="" target="_blank" rel="noopener noreferrer" ><i class="fa-regular fa-envelope"></i></a>
+                <a href="" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                <a href="" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+                <a href="" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a>
+            </ul>
+        </div>
+    </footer>
+
+     <!-- template goes here -->
+     <template id="gallery-template">
+        <section class="project-container">
+            <div>
+                <a href=""><img src="" alt="project image"></a>
+            </div>
+            <h2 class="project-name"> </h2>
+            <p class="project-type"> </p>
+        </section>
+    </template>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="js/main.js" defer type="module"> </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+
+.home-contact {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.3rem;
+
+    @include desktop {
+        width: 25%;
+    }
+}
+
+.home-contact span {
+    color: $light-text;
+    line-height: 2rem;
+}
+
+.home-about p , a {
+    font-size: $para;
+    line-height: 1.3rem;
+    margin-bottom: $margin-bottom;
+}
+
