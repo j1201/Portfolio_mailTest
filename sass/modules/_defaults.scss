@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Object Sans";
+    src: url("/assets/fonts/ObjectSans-Regular.woff") format("woff"), url("/assets/fonts/ObjectSans-Regular.woff2") format("woff2");
+  }   
+
+body {
+    font-family: 'Object Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    margin: $body-margin;
+}
+
+.logo img {
+    max-width: $logo-size;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h2 {
+    font-size: $h2 ;
+    font-weight: $bold-text;
+    line-height: 2.8rem;
+    margin-bottom: $margin-bottom;
+}
+
+
+

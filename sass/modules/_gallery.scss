@@ -1,0 +1,31 @@
+.gallery-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3em;
+    width: 100%;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+
+    @include tablet {
+        width: 46%;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .project-name {
+        font-size: $h2;
+        margin-bottom: .5rem;
+    }
+
+    .project-type {
+        font-size: $para;
+        padding: 0;
+    }
+}

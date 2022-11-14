@@ -1,0 +1,25 @@
+.home-about-container {
+    margin-bottom: $section-margin;
+
+    @include tablet {
+        margin: 10em 0;
+    }
+
+    h2 {
+        @include desktop {
+            font-size: 2.5em;
+            line-height: 1.5em;
+        }
+    }
+
+    p, a {
+        @include desktop {
+            font-size: 1em;
+        }
+    }
+
+    @include desktop {
+        display: flex;
+        column-gap: 6em;
+    }
+}
